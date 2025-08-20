@@ -13,56 +13,51 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ![alt text](image.png)
 
-SETUP:
+SETUP
 
-Community Website
-Welcome to the project! This guide will walk you through the process of setting up the project environment and running it on your local machine.
+# 🌐 Community Website
 
-Prerequisites
-Before you begin, ensure you have the following installed on your system.
+This repository contains the source code for the **Community Website** built with **React + Vite**.  
+Follow the steps below to set up and run the project locally.
 
-1. Node.js Installation
-Node.js is required to run the project. If you don't have it installed, follow these steps:
+---
 
-Download Node.js: Go to the official Node.js website.
+## 📦 Prerequisites
 
-Select a Version: Download the LTS (Long-Term Support) version, which is recommended for most users.
+- Install **Node.js (LTS version)**: [Download here](https://nodejs.org/)  
+- Verify installation:
+  ```bash
+  node -v
+  npm -v
 
-Install: Run the installer and follow the on-screen instructions.
 
-Verify Installation: Open your terminal or command prompt and run the following commands to check if Node.js and npm (Node Package Manager) were installed correctly:
+Install Git
 
-node -v
-npm -v
+Verify:
+git --version
 
-You should see the version numbers printed in the console.
-
-Getting Started
-Follow these steps to get your development environment set up.
-
-2. Clone the Repository
-Clone the project repository from GitHub to your local machine using the following command:
-
+⚙️ Setup Instructions
+1. Clone the Repository
 git clone https://github.com/SurajKumar-codes/Community-Page.git
-
-After cloning, navigate into the project directory:
-
 cd Community-Page
 
-3. Install Dependencies
-Once you are inside the project directory, install all the necessary project dependencies using npm:
-
+2. Install Dependencies
 npm install
 
-This command will download all the packages and libraries listed in the package.json file into a node_modules folder.
-
-4. Run the Development Server
-Finally, you can start the local development server with this command:
-
+3. Start the Development Server
 npm run dev
 
-This will launch the application in development mode. Open your web browser and navigate to http://localhost:5173 (or the URL specified in your terminal) to see the application running.
 
-The server will automatically reload if you make any changes to the source files.
+The project will start at:
 
-Happy coding!
+👉 http://localhost:5173
+
+🛠 Tech Stack
+
+React (JavaScript)
+
+Vite (for fast builds & HMR)
+
+Tailwind CSS (if included)
+
+ESLint (for code linting)
